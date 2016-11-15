@@ -1,0 +1,100 @@
+
+/* MUC styling */
+
+body
+	{
+		height:100%; width:100%;
+		font-size:11pt;
+		font-family:Helvetica Verdana;
+	}
+
+h1
+	{
+		display:none;
+		font-size:12pt;
+		font-weight:bold;
+	}
+
+#header {
+	text-align: center;
+	padding-top: 50px;
+}
+
+#roster, #msglog, #msginput, #nickchoose, #nickentryline, input
+	{
+		background-color:#ffffff;
+	}
+
+#roster, #msglog
+	{
+		overflow:auto !important;
+	}
+
+#nickchoose
+	{
+	}
+#nickentryline
+	{
+		padding:10px;
+		margin:auto;
+		text-align: center;
+	}
+#nickentry,
+#nickentry + [type='submit'] {
+	display: inline-block;
+	vertical-align: middle;
+}
+#nickentry {
+	border: 1px solid #111;
+	height: 20px;
+}
+#nickentry + [type='submit'] {
+	cursor: pointer;
+	background: #111;
+	color: #fff;
+	border: none;
+	height: 20px;
+}
+	
+#throbber
+	{
+		float:left;
+		margin-top:10%;
+		margin-left:40%;
+	}
+
+.statusindicator
+	{
+		font-size:16px;
+		color:#cccccc;
+	}
+
+.rosteritem.statusonline .statusindicator { color:#55ff55; }
+.rosteritem.statusaway   .statusindicator { color:#ff9900; }
+.rosteritem.statusxa     .statusindicator { color:#ff5555; }
+.rosteritem.statusdnd    .statusindicator { color:#ff1111; }
+.rosteritem.statuschat   .statusindicator { color:#ffff00; }
+
+.muc-nick
+	{
+		font-weight:bold;
+	}
+
+.muc-join
+	{
+		color:#30c030;
+	}
+.muc-leave
+	{
+		color:#c03030;
+	}
+
+.muc-history
+	{
+		color:#bbbbbb;
+	}
+
+.muc-topic
+	{
+		color: #463f91;
+	}
